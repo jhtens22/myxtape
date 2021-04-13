@@ -13,7 +13,7 @@
     $song->setSongYoutube($row["songYoutube"]);
     $song->setSongSpotify($row["songSpotify"]);
     $song->setSongPoster($row["songPoster"]);
-    $song->createShow();
+    $song->createSong();
 
     //header("Location: dashboard.php");
 ?>

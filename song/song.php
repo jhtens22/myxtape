@@ -75,12 +75,12 @@ class Song implements \JsonSerializable {
         return $songDAO->getSongsByUserId($user_id);
     }
 
-    function createShow(){
+    function createSong(){
         $songDAO = new songDAO();
         $songDAO->createSong($this);
     }
 
-    function deleteShow($user_id, $song_id){
+    function deleteSong($user_id, $song_id){
         $songDAO = new songDAO();
         return $songDAO->deleteSong($user_id, $song_id);
     }
