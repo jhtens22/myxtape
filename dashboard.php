@@ -27,7 +27,7 @@
     for($x = 0; $x < $arrlength; $x++) {            
         echo '<div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img href="' . $songs[$x]->getSongPoster() . '" class="card-img-top" alt="Song Poster">
+                    <img src="' . $songs[$x]->getSongPoster() . '" class="card-img-top" alt="Song Poster">
                     <div class="card-body">
                         <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Genre: ' . $songs[$x]->getSongGenre() . '</h6>
