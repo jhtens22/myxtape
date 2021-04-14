@@ -34,12 +34,12 @@
         https://open.spotify.com/track/4qsVPnhbvEooD1bSNqvvh0?si=vMldZcQoQY-vTrUfS0gSbw">
     </div>
     <div class="mb-3">
-        <label for="poster" class="form-label">Spotify Link</label>
+        <label for="poster" class="form-label">Poster Image Link</label>
         <input type="text" class="form-control" id="poster" name="songPoster" placeholder="
         https://upload.wikimedia.org/wikipedia/en/2/25/LetItBe.jpg">
     </div>
     
-    <input type="submit" value="Add Show" />
+    <input type="submit" value="Add Song" />
 </form>
 
 <a href="logout.php">Logout</a>
