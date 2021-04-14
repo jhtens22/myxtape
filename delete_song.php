@@ -1,5 +1,6 @@
 <?php
     echo $_GET["song_id"];
+    echo $_GET[$_SESSION["user_id"]];
 
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
