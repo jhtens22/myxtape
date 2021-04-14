@@ -22,6 +22,8 @@
 
     $arrlength = count($songs);
 
+    echo '<div class="row">';
+
     for($x = 0; $x < $arrlength; $x++) {            
         echo '<div class="col-4">
                 <div class="card" style="width: 18rem;">
@@ -36,6 +38,8 @@
                     <br />
                 </div>';
     }
+
+    echo '</div>';
     ?>
 
     <a href="logout.php">Logout</a>
