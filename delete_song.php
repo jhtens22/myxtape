@@ -6,7 +6,7 @@
     error_reporting(E_ALL);
 
     require_once('./song/song.php');
-    require_once('./sessioncheck.php');
+    require_once('./session/session.php');
 
     $song = new song();
     $songs = $song->deleteSong($_SESSION["user_id"], $_GET["song_id"]);
