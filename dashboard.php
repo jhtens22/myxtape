@@ -25,15 +25,18 @@
     $arrlength = count($songs);
 
     for($x = 0; $x < $arrlength; $x++) {            
-        echo '<div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Genre: ' . $songs[$x]->getSongGenre() . '</h6>
-                    <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
-                    <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>
-                </div>
-                </div>
-                <br />';
+        echo '<div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img href="' . $songs[$x]->getSongPoster() . '" class="card-img-top" alt="Song Poster">
+                    <div class="card-body">
+                        <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Genre: ' . $songs[$x]->getSongGenre() . '</h6>
+                        <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
+                        <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>
+                    </div>
+                    </div>
+                    <br />
+                </div>';
     }
     ?>
 
