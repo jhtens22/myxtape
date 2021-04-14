@@ -6,7 +6,7 @@ class SongDAO {
         require_once('./song/song.php');
 
         $sql = "SELECT song_id, songTitle, songArtist, songGenre, songDescription, showYoutube, songSpotify, 
-                songPoster FROM `song` WHERE user_id= " . $user_id;
+                songPoster FROM `myxtape`.`song` WHERE user_id= " . $user_id;
         $result = $conn->query($sql);
 
         $songs = [];
