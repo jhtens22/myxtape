@@ -62,7 +62,6 @@ class SongDAO {
         
         $sql = "DELETE FROM `myxtape`.`song` WHERE `user_id` = " . $uid . " AND song_id = " . $sid . ";";
         if ($conn->query($sql) === TRUE) {
-          echo "song deleted";
           header("Location: dashboard.php?del=true");
         } else {
           echo "Error: " . $sql . "<br>" . $conn->error;
