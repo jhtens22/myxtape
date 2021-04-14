@@ -9,7 +9,7 @@
     require_once('./song/song.php');
 
     $song = new song();
-    $songs = $song->deleteSong($_SESSION["user_id"], $_GET["song_id"]);
+    $songs = $song->deleteSong($_GET[$_SESSION["user_id"]], $_GET["song_id"]);
 
     header("Location: dashboard.php?del=true");
 ?>
