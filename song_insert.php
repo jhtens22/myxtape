@@ -16,5 +16,5 @@
     $song->setUserId($_SESSION["user_id"]);
     $song->createSong();
 
-    //header("Location: dashboard.php");
+    header("Location: dashboard.php");
 ?>
