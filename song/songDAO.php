@@ -1,11 +1,10 @@
 <?php
 class SongDAO {
-
     function getSongsByUserId($user_id){
         require_once('./utilities/connection.php');
         require_once('./song/song.php');
 
-        $sql = "SELECT song_id, songTitle, songArtist, songGenre, songDescription, showYoutube, songSpotify, 
+        $sql = "SELECT song_id, songTitle, songArtist, songGenre, songDescription, songYoutube, songSpotify, 
                 songPoster FROM `myxtape`.`song` WHERE user_id= " . $user_id;
         $result = $conn->query($sql);
 
