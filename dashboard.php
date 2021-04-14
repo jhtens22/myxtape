@@ -3,7 +3,7 @@
 ?>
 
 <main role="main" class="container">
-    <h1 class="mt-5"><?php$_SESSION["firstName"]?>'s Favorite Shows</h1>
+    <h1 class="mt-5"><?php $_SESSION["firstName"] ?>'s Favorite Shows</h1>
     
     <a class="button" href="add_song.php">Create Song</a>
 
