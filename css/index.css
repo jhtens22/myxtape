@@ -1,0 +1,12 @@
+#hero {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+    background: #1F2833;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(31, 40, 51, 0.75), rgba(31, 40, 51, 0.75)), url("../img/oscar-keys-ojVMh1QTVGY-unsplash.jpg");
+}
+
+img {
+   object-fit: cover;
+}
