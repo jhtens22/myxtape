@@ -1,0 +1,17 @@
+// Styles
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+
+$font-family: 'Voltaire', sans-serif;
+$enable-responsive-font-sizes: true;
+
+$theme-colors: (
+  "primary": #379683,
+  "light": #a5e9bf,
+  "secondary": #05386b,
+  "info": #edf5e1,
+  "danger": #fe5d26
+);
+
+@import "~bootstrap/scss/bootstrap";
