@@ -20,6 +20,7 @@ error_reporting(E_ALL);
 
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/custom.scss">
   </head>
 
   <body>
