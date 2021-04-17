@@ -1,6 +1,6 @@
-#hero {
+.hero {
     height: 600px;
-    width: 100vw;
+    width: 100%;
     background: black;
     overflow: hidden;
     background: #1F2833;  /* fallback colour. Make sure this is just one solid colour. */
