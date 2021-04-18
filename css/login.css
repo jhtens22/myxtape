@@ -1,0 +1,33 @@
+.form-label {
+    color: #66FCF1;
+}
+
+button.btn.text-center {
+    background-color: #1F2833;
+    color: #64fcf2;
+}
+
+input.form-control {
+    background-color: #1f2833;
+    border-color: #1F2833;
+    color: #45A29E;
+}
+
+input.form-control:focus {
+    background-color: #1f2833;
+    color: #45A29E;
+}
+
+input.form-control::placeholder {
+    color: #45A29E;
+}
+
+a{
+    color: #45A29E;
+}
+a#registerlink {
+    margin-top: 20px;
+}
+a:hover{
+    color: #66FCF1;
+}

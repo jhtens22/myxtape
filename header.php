@@ -21,6 +21,8 @@ error_reporting(E_ALL);
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33bde7901a.js" crossorigin="anonymous"></script>
+    <link href="./fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/project.css">
   </head>
 

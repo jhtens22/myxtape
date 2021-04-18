@@ -8,22 +8,62 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33bde7901a.js" crossorigin="anonymous"></script>
+    <link href="./fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/project.css">
+    
     <title>Login</title>
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/myxtape_logo.png" alt="myxtape" width="50px" height="30px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <div class="heading text-center mt-5">
+      <h1>Login</h1>
+      <img src="./img/logo_transparent_background.png" alt="Myxtape logo" width="150px" height="150px">
+    </div>
+
     <form action="login.php" method="POST">
+      <div class="row mt-4">
+        <div class="col-3"></div>
         <div class="mb-3 col-6">
-          <label for="exampleInputEmail1" class="form-label">Username</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username">
-          <div id="emailHelp" class="form-text">We'll never share your username with anyone else.</div>
+          <input type="text" class="form-control" id="username" placeholder="Username" name="username">
         </div>
+        <div class="col-3"></div>
+      </div>
+        
+      <div class="row mt-2">
+        <div class="col-3"></div>
         <div class="mb-3 col-6">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+          <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1" name="password">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        <div class="col-3"></div>
+      </div>
+        <div class="text-center mt-3">
+          <button type="submit" class="btn text-center">Login</button><br>
+          <a id="registerlink" href="register_user.php">Create an account</a>
+        </div>
+      
+    </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
