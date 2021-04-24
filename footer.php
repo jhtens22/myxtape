@@ -1,4 +1,4 @@
-<footer class="footer">
+    <footer class="footer">
       <div class="container">
         <span class="text-muted"><h4>Copyright by Jaythan Hew</h4></span>
       </div>
