@@ -46,8 +46,8 @@
                         </div>
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
                         <div class="row">
-                            <div class="col-6 text-start">
-                                <a class="text-start" href="'. $songs[$x]->getSongYoutube() .'" ><h4><i class="fab fa-youtube"></i></h4></a>
+                            <div class="col-6 text-end">
+                                <a class="text-end" href="'. $songs[$x]->getSongYoutube() .'" ><h4><i class="fab fa-youtube"></i></h4></a>
                             </div>
                             <div class="col-6 text-end">
                                 <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><h4><i class="fab fa-spotify"></i></h4></a>
