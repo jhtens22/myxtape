@@ -1,5 +1,5 @@
 <?php 
-    require_once('./header.php');
+    require_once('./register_header.php');
 ?>
 <div class="heading text-center mt-5">
     <h1>Register</h1>
