@@ -1,6 +1,13 @@
 <?php 
+    require_once('./sessioncheck.php');
     require_once('./header.php');
+
+    if(session_status() != PHP_SESSION_ACTIVE){
+        session_start();  
+    }
 ?>
+
+
 
 <main role="main" class="container">
     
