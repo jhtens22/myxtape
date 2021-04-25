@@ -29,6 +29,7 @@ h1, h2, h4{
 }
 
 .footer{
+  width: 100%;
   background-color: #1F2833 !important;
   position: absolute;
   display: block !important;
