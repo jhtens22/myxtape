@@ -29,19 +29,17 @@ error_reporting(E_ALL);
           $sql = "SELECT `user_id`, `username`  FROM `myxtape`.`user` WHERE username = '" . $passedinusername . "' AND password = '" . hash("sha256", trim($passedinpassword)) . "'";
       
           $result = $conn->query($sql);
-          $userinfo = array();
       
           if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
-              $userinfo = $row["user_id"];
-              $userinfo = $row["username"];
+              $user_id = $row["user_id"];
             }
           }
           else {
               echo "0 results";
           }
           $conn->close();
-          return $userinfo;
+          return $user_id;
         }
 
         function createUser($user){

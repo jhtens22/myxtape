@@ -2,6 +2,8 @@
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 error_reporting(E_ALL);
+require_once('./sessioncheck.php');
+require_once('./user/user.php')
 
 ?>
 <!doctype html>
@@ -25,6 +27,10 @@ error_reporting(E_ALL);
   </head>
 
   <body>
+    <?php 
+      $user = new user();
+      $thisUser = $user->getUser($_SESSION["user_id"]);
+    ?>
 
     <h1 class="text-center text-primary">
       <?php echo $_SESSION["username"]; ?>'s Myxtape

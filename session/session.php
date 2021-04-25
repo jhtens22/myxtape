@@ -8,8 +8,7 @@ class session {
     $loggedInUser = $user->checkLogin($username, $password);
     if($loggedInUser != 0){
       $_SESSION["loggedIn"] = true;
-      $_SESSION["user_id"] = $loggedInUser[0];
-      $_SESSION["username"] = $loggedInUser[1];
+      $_SESSION["user_id"] = $loggedInUser;
       return true;
     }
     else{
