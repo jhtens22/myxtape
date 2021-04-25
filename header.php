@@ -28,5 +28,5 @@ error_reporting(E_ALL);
   <body>
 
     <h1 class="text-center text-primary">
-    My Myxtape
+      <?php echo $_SESSION["username"]; ?>'s Myxtape
     </h1>
