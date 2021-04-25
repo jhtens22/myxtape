@@ -4,11 +4,7 @@
     error_reporting(E_ALL);
     require_once('./header.php');
 ?>
-<style>
-    .footer{
-        position: absolute !important;
-    }
-</style>
+
 
 <form method="POST" action="song_insert.php">
     <div class="row mt-4">

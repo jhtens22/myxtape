@@ -22,11 +22,6 @@ error_reporting(E_ALL);
     <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/33bde7901a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/project.css">
-    <style>
-      .footer{
-        position: absolute !important;
-      }
-    </style>
   </head>
 
   <body>

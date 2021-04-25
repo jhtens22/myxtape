@@ -1,7 +1,11 @@
 <?php 
     require_once('./header.php');
 ?>
-
+<style>
+    .footer{
+        position: relative !important;
+    }
+</style>
 
 
 <section role="main" class="container">
