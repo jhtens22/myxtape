@@ -1,7 +1,7 @@
 <?php
 class SongDAO {
     function getSongsByUserId($user_id){
-        require_once('./utilities/connection.php');
+        require('./utilities/connection.php');
         require_once('./song/song.php');
 
         $sql = "SELECT song_id, songTitle, songArtist, songGenre, songDescription, songYoutube, songSpotify, 
