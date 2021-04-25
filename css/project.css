@@ -29,8 +29,8 @@ h1, h2, h4{
 }
 
 footer.footer{
-  background-color: #1F2833;
-  position: relative;
+  background-color: #1F2833 !important;
+  position: relative !important;
   bottom: 0px;
 }
 
