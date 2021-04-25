@@ -36,8 +36,15 @@
                     <img src="' . $songs[$x]->getSongPoster() . '" class="card-img-top" alt="Song Poster">
                     <div class="card-body">
                         <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Genre: ' . $songs[$x]->getSongGenre() . '</h6>
+                        <div class="row">
+                            <h6 class="card-subtitle mb-2 text-muted text-start">Genre: ' . $songs[$x]->getSongGenre() . '</h6> 
+                            <h6 class="card-subtitle mb-2 text-muted text-end">Artist: ' . $songs[$x]->getSongArtist() . '</h6> 
+                        </div>
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
+                        <div class="row">
+                            <a class="text-start" href="'. $songs[$x]->getSongYoutube() .'" ><i class="fab fa-youtube"></i></a>
+                            <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><i class="fab fa-spotify"></i></a>
+                        </div>
                         <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>
                     </div>
                     </div>
