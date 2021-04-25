@@ -42,8 +42,8 @@
                         </div>
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
                         <div class="row">
-                            <a class="text-start" href="'. $songs[$x]->getSongYoutube() .'" ><i class="fab fa-youtube"></i></a>
-                            <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><i class="fab fa-spotify"></i></a>
+                            <a class="text-start" href="'. $songs[$x]->getSongYoutube() .'" ><h4><i class="fab fa-youtube"></i></h4></a>
+                            <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><h4><i class="fab fa-spotify"></i></h4></a>
                         </div>
                         <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>
                     </div>
