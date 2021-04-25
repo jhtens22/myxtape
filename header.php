@@ -32,5 +32,5 @@ require_once('./user/user.php')
     ?>
 
     <h1 class="text-center text-primary">
-      <?php echo $_SESSION["username"]; ?>'s Myxtape
+      <?php echo $thisuser->getUsername(); ?>'s Myxtape
     </h1>
