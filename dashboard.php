@@ -4,7 +4,7 @@
 
 
 
-<main role="main" class="container">
+<section role="main" class="container">
     
     <a class="button" href="add_song.php">Create Song</a>
 
@@ -45,7 +45,7 @@
     ?>
 
     <a href="logout.php">Logout</a>
-</main>
+</section>
 
 
 <?php 

@@ -45,8 +45,6 @@ require_once('./user/user.php')
             <div class="navbar-nav">
               <a class="nav-link active" href="index.html">Home</a>
               <a class="nav-link" href="dashboard.php">Playlist</a>
-              <a class="nav-link" href="login.html">Login</a>
-              <a class="nav-link" href="register_user.php">Create Account</a>
             </div>
           </div>
         </div>
