@@ -28,9 +28,9 @@ h1, h2, h4{
   color: #66FCF1;
 }
 
-footer.footer{
+.footer{
   background-color: #1F2833 !important;
-  position: block !important;
+  display: block !important;
   bottom: 0px;
 }
 
