@@ -16,7 +16,7 @@
     
     <div class="row mt-4">
         <div class="col-3"></div>
-        <div class="mb-3">
+        <div class="mb-3 col-6">
             <input type="text" class="form-control" id="artist" name="songArtist" placeholder="Artist">
         </div>
         <div class="col-3"></div>
@@ -24,7 +24,7 @@
     
     <div class="row mt-4">
         <div class="col-3"></div>
-        <div class="mb-3">
+        <div class="mb-3 col-6">
             <input type="text" class="form-control" id="genre" name="songGenre" placeholder="Genre">
         </div>
         <div class="col-3"></div>
@@ -32,7 +32,7 @@
     
     <div class="row mt-4">
         <div class="col-3"></div>
-        <div class="mb-3">
+        <div class="mb-3 col-6">
             <input type="text" class="form-control" id="description" name="songDescription" placeholder="
             Description">
         </div>
@@ -41,7 +41,7 @@
     
     <div class="row mt-4">
         <div class="col-3"></div>
-        <div class="mb-3">
+        <div class="mb-3 col-6">
             <input type="text" class="form-control" id="youtube" name="songYoutube" placeholder="
             Youtube Link">
         </div>
@@ -50,7 +50,7 @@
     
     <div class="row mt-4">
         <div class="col-3"></div>
-        <div class="mb-3">
+        <div class="mb-3 col-6">
             <input type="text" class="form-control" id="spotify" name="songSpotify" placeholder="
             Spotify Link">
         </div>
@@ -59,7 +59,7 @@
     
     <div class="row mt-4">
         <div class="col-3"></div>
-        <div class="mb-3">
+        <div class="mb-3 col-6">
             <input type="text" class="form-control" id="poster" name="songPoster" placeholder="
             Poster Image Link">
         </div>
