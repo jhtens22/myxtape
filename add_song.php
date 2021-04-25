@@ -71,8 +71,6 @@
     
 </form>
 
-<a href="logout.php">Logout</a>
-
 <?php 
     require_once('./footer.php');
 ?>
