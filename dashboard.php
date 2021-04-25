@@ -37,13 +37,21 @@
                     <div class="card-body">
                         <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
                         <div class="row">
-                            <h6 class="card-subtitle mb-2 text-muted text-start">Genre: ' . $songs[$x]->getSongGenre() . '</h6> 
-                            <h6 class="card-subtitle mb-2 text-muted text-end">Artist: ' . $songs[$x]->getSongArtist() . '</h6> 
+                            <div class="col-6 text-start">
+                                <h6 class="card-subtitle mb-2 text-muted">Genre: ' . $songs[$x]->getSongGenre() . '</h6> 
+                            </div>
+                            <div class="col-6 text-end">
+                                <h6 class="card-subtitle mb-2 text-muted text-end">Artist: ' . $songs[$x]->getSongArtist() . '</h6> 
+                            </div>
                         </div>
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
                         <div class="row">
-                            <a class="text-start" href="'. $songs[$x]->getSongYoutube() .'" ><h4><i class="fab fa-youtube"></i></h4></a>
-                            <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><h4><i class="fab fa-spotify"></i></h4></a>
+                            <div class="col-6 text-start">
+                                <a class="text-start" href="'. $songs[$x]->getSongYoutube() .'" ><h4><i class="fab fa-youtube"></i></h4></a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><h4><i class="fab fa-spotify"></i></h4></a>
+                            </div>
                         </div>
                         <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>
                     </div>
