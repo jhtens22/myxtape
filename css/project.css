@@ -56,6 +56,9 @@ h6.card-subtitle.mb-2 {
 p{
   color: #C5C6C7;
 }
+p#desc {
+  font-size: 2rem;
+}
 
 input.btn.text-center {
   background-color: #1F2833;
