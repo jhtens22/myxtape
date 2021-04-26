@@ -8,7 +8,7 @@
 </style>
 
 
-<section role="main" class="container">
+<section role="main" class="container mx-auto">
 
     <?php
 
