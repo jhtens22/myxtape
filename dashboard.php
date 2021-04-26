@@ -9,8 +9,6 @@
 
 
 <section role="main" class="container">
-    
-    <a class="button" href="add_song.php">Create Song</a>
 
     <?php
 
