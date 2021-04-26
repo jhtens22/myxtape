@@ -4,6 +4,7 @@
 <style>
     .footer{
         position: static !important;
+        bottom: 0px !important;
     }
 </style>
 
