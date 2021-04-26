@@ -45,10 +45,10 @@
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
                         <div class="row">
                             <div class="col-6 text-right">
-                                <a class="text-end" href="'. $songs[$x]->getSongYoutube() .'" ><h3><i class="fab fa-youtube"></i></h3></a>
+                                <a class="text-end" target="_blank" href="'. $songs[$x]->getSongYoutube() .'" ><h3><i class="fab fa-youtube"></i></h3></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a class="text-end" href="'. $songs[$x]->getSongSpotify() .'" ><h3><i class="fab fa-spotify"></i></h3></a>
+                                <a class="text-end" target="_blank" href="'. $songs[$x]->getSongSpotify() .'" ><h3><i class="fab fa-spotify"></i></h3></a>
                             </div>
                         </div>
                         <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>
