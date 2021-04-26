@@ -38,10 +38,10 @@
                         <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
                         <div class="row">
                             <div class="col-6 text-start">
-                                <h6 class="card-subtitle mb-2 text-muted">Genre: ' . $songs[$x]->getSongGenre() . '</h6> 
+                                <h6 class="card-subtitle mb-2">Genre: ' . $songs[$x]->getSongGenre() . '</h6> 
                             </div>
                             <div class="col-6 text-end">
-                                <h6 class="card-subtitle mb-2 text-muted text-end">Artist: ' . $songs[$x]->getSongArtist() . '</h6> 
+                                <h6 class="card-subtitle mb-2">Artist: ' . $songs[$x]->getSongArtist() . '</h6> 
                             </div>
                         </div>
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
