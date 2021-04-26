@@ -2,7 +2,9 @@
     require_once('./header.php');
 ?>
 <style>
-    
+    .footer{
+        position: static !important;
+    }
 </style>
 
 
