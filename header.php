@@ -18,7 +18,7 @@ require_once('./user/user.php');
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" href="./img/favicon-32x32.png"/>
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/33bde7901a.js" crossorigin="anonymous"></script>
