@@ -31,7 +31,7 @@
     for($x = 0; $x < $arrlength; $x++) {            
         echo '<div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="' . $songs[$x]->getSongPoster() . '" class="card-img-top" alt="Song Poster">
+                    <img src="' . $songs[$x]->getSongPoster() . '" class="card-img-top" alt="' . $songs[$x]->getSongTitle() . ' Poster">
                     <div class="card-body">
                         <h5 class="card-title">' . $songs[$x]->getSongTitle() . '</h5>
                         <div class="row">
@@ -45,10 +45,10 @@
                         <p class="card-text">' . $songs[$x]->getSongDescription() . '</p>
                         <div class="row">
                             <div class="col-6 text-right">
-                                <a class="text-end" target="_blank" href="'. $songs[$x]->getSongYoutube() .'" ><h3><i class="fab fa-youtube"></i></h3></a>
+                                <a class="text-end" target="_blank" href="'. $songs[$x]->getSongYoutube() .'" ><h3><i alt="youtube link" class="fab fa-youtube"></i></h3></a>
                             </div>
                             <div class="col-6 text-end">
-                                <a class="text-end" target="_blank" href="'. $songs[$x]->getSongSpotify() .'" ><h3><i class="fab fa-spotify"></i></h3></a>
+                                <a class="text-end" target="_blank" href="'. $songs[$x]->getSongSpotify() .'" ><h3><i alt="spotify link" class="fab fa-spotify"></i></h3></a>
                             </div>
                         </div>
                         <a href="delete_song.php?song_id=' . $songs[$x]->getSongId() .'" class="card-link">Delete Song</a>

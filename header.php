@@ -35,7 +35,7 @@ require_once('./user/user.php');
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="img/myxtape_logo.png" alt="myxtape" width="50px" height="30px">
+            <img src="img/myxtape_logo.png" alt="myxtape logo" width="50px" height="30px">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
