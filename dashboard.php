@@ -63,7 +63,7 @@
     echo '</div>';
     ?>
 
-    <a href="logout.php">Logout</a>
+    
 </section>
 
 
