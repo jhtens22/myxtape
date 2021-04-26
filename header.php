@@ -47,13 +47,13 @@ require_once('./user/user.php');
               <a class="nav-link" href="dashboard.php">Playlist</a>
             </div>
             <div class="d-flex justify-content-between">
-              <a href="logout.php">Logout</a>
+              <a class="nav-link" href="logout.php">Logout</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
 
-    <h1 class="text-center text-primary">
+    <h1 class="text-center">
       <?php echo $thisUser->getUsername(); ?>'s Myxtape
     </h1>
