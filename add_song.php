@@ -6,7 +6,7 @@
 ?>
 
 
-<form method="POST" action="song_insert.php">
+<form method="POST" class="mb-5" action="song_insert.php">
     <div class="row mt-4">
         <div class="col-3"></div>
         <div class="mb-3 col-6">
