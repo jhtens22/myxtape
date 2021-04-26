@@ -46,7 +46,7 @@ require_once('./user/user.php');
               <a class="nav-link active" href="index.html">Home</a>
               <a class="nav-link" href="dashboard.php">Playlist</a>
             </div>
-            <div class="d-flex">
+            <div class="d-flex justify-content-between">
               <a href="logout.php">Logout</a>
             </div>
           </div>
